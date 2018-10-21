@@ -17,11 +17,7 @@ class ClassController < ApplicationController
     @result_1 = texts.sample(1)[0]
     @result_2 = texts_1.sample(1)[0]
     @result_3 = texts_2.sample(1)[0]
-    # 일단 이부분에서 에러 떠
-    # 왜뜨냐면 a라는 리스트가없자나
-    # @result_a = a.sample(1)[0]
-    #이러면 result_a 에 순수함 귀여움 저거 리스트중에 하나가 담기게 되자남
-    
+   
     image_name_list = ["1.jpg", "2.JPG"]
     image_name_list_2 = ["3.JPG","A.jpeg"]
     image_name_list_3 = ["B.jpeg","C.jpeg"]
